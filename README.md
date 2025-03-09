@@ -1,8 +1,8 @@
 ### Typescript fundamentals
 
 ### TECHNOLOGIES
-### Typescript
-### Vite
+* Typescript
+* Vite
 
 ### START UP APPLICATION
 ```
