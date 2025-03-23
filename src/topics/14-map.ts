@@ -1,6 +1,12 @@
 /*
   Map -> It is a built-in object that allows you
   to store key-value pairs. It is similar to an object
+
+  When Not to Use Map
+  . If you only need simple key-value pairs and keys are always strings or symbols, a plain object ({}) might be simpler and more efficient.
+  . If you need JSON serialization, objects are easier to work with since Map cannot be directly serialized to JSON.
+
+  In summary, use Map when you need more flexibility with keys, want to maintain insertion order, or need built-in methods for managing key-value pairs.
 */
 
 // 1) Map allows keys of any type
