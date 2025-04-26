@@ -12,7 +12,8 @@ import './style.css'
 // import './topics/11-optional-chaining';
 // import './topics/12-type';
 // import './topics/13-record';
-import './topics/14-map';
+// import './topics/14-map';
+import './topics/15-partial';
 
 const app = document.querySelector<HTMLDivElement>('#app');
 app!.innerHTML = `
