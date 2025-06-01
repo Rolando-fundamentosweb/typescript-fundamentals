@@ -44,6 +44,12 @@ map.set('b', 2);
 for (const [key, value] of map) {
   console.log(`${key} - ${value}`);
 }
+
+// forEach() -> methods allows you to run a function on each element (key-value pair) in the map.
+map.forEach((value, key) => {
+  console.log(`${key} - ${value}`);
+});
+
 /*
   Output:
   a - 1
